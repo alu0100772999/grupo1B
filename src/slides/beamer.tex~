@@ -1,0 +1,93 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel} % Para separar correctamente las palabras de multitud de idiomas
+\usepackage[utf8]{inputenc} %Este paquete permite poner acentos directamente y eñes
+\usepackage{graphicx}
+\title{\underline{Trabajo de fin de curso}}
+\author{ Kevin Gabriel Cabrera Marrero\\Javier Contreras Gómez\\Nieves García Hernández}
+\date{Mayo - 2013}
+
+\usetheme{Antibes}
+
+\begin{document}
+\begin{frame}
+
+
+  
+\titlepage
+
+
+\begin{center}
+Técnicas experimentales
+\end{center}
+\end{frame}
+
+
+\section{Motivación y objetivos}
+\subsection{Motivación}
+\begin{frame}
+    El objetivo de este estudio de interpolación tiene como principal objetivo familiarizarse con \ 
+    la realización tanto de informes científicos como la implementación en código Python.\
+  \end{frame}
+\begin{frame}
+    El teorema de Lagrange es uno de los teoremas mas importantes del análisis matemático y 
+    supone una base para muchos otros principios de la estructura de las matematicas.
+    \smallskip
+    En este documento se mostrará una aplicación del Teorema de Lagrange a una función dada.
+\end{frame}
+ \subsection{Objetivos}
+\begin{frame}
+    El objetivo de este estudio es no solo calcular los puntos vaticinados en el Teorema para una 
+    función, si no implementar un código en lenguaje Python que nos muestre los resultados.
+\end{frame}
+\begin{frame}
+\section{Fundamentos teóricos}
+ \subsection{Teorema del valor medio de Lagrange}
+  En este caso, estudiaremos la funcion: $ f(x)= ln(6x) $ .
+  Teorema de Lagrange:
+  Sea $ f $ una función continua en un intervalo  $ [a,b] $ y derivable en $ (a,b) $ ,
+  entonces existe un punto c perteneciente a $ (a,b) $ de forma que:
+  
+   \[ f'(c)= \frac{f (b)-f (a)}{b-a} \]
+\end{frame}
+      
+  \section{Procedimiento experimental}
+  
+    
+   \subsection{Descripcion de los experimentos}
+      \begin{frame}
+       Se implementará un programa en código Python que resuelva de manera rápida y sencilla los puntos vaticinados en dicho teorema, en este caso para un intervalo $ (1,7) $ 
+   \end{frame}
+  \subsection{Descripcion del material}
+   \begin{frame}
+    Todos los datos obtenidos han sido realizados en el sistema operativo Linux:
+       \begin{itemize}
+             \item Version del ordenador: Linux-3.2.0-41-generic-i686-with-Ubuntu-12.04-precise 
+             \item Version de pyhton: 2.7.3
+        \end{itemize}
+     Y con el programa:
+     \begin{itemize}
+              \item TexMakerX version 1.9.3 for Windows XP
+     \end{itemize}
+   \end{frame}
+  \subsection{Resultados obtenidos}
+      \begin{frame}
+            Se ha conseguido el valor de un punto c=4.32808512267, y la posibilidad de una gráfica que veremos al ejecutar el programa.
+            
+      \end{frame}
+ \subsection{Análisis de los resultados}
+   \begin{frame}
+      El punto c obtenido supone el único punto que respeta dicho teorema, con una aproximación mayor a $ 10^{-9} $. Es un resultado que cabe esperar de acuerdo con la pendiente formada por los puntos $ (a,f(a))$ y $(b,f(b))$.
+   \end{frame}
+
+\section{Conclusiones}
+\begin{frame}
+    Se ha conseguito implementar en Python un código que nos permite calcular los puntos vaticinados en el Teorema de Lagrange, esto no nos permite obtener grandes resultados frente e otras aplicaciones, ya que este Teorema presenta principalmente un fin teórico.
+    Sin embargo, se ha demostrado que gracias al lenguaje de programación se consigue obtener resultados con mucha mayor rapidez de la que la puede realizar cualquier persona, por lo que resulta una buena alternativa como herramienta para las matemáticas.
+\end{frame}
+
+\section{Bibliografía}
+  \begin{frame}
+    http://es.wikipedia.org/wiki/Beamer\\http://es.wikipedia.org/wiki/Python\\http://mundogeek.net/tutorial-python/\\http://docs.python.org/2/tutorial/
+    \end{frame}
+
+\end{document}

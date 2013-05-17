@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Motivaci\IeC {\'o}n y objetivos}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Motivaci\IeC {\'o}n}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Objetivos}{4}{0}{1}
+\beamer@sectionintoc {2}{Fundamentos te\IeC {\'o}ricos}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Teorema del valor medio de Lagrange}{5}{0}{2}
+\beamer@sectionintoc {3}{Procedimiento experimental}{6}{0}{3}
+\beamer@subsectionintoc {3}{1}{Descripcion de los experimentos}{6}{0}{3}
+\beamer@subsectionintoc {3}{2}{Descripcion del material}{7}{0}{3}
+\beamer@subsectionintoc {3}{3}{Resultados obtenidos}{8}{0}{3}
+\beamer@subsectionintoc {3}{4}{An\IeC {\'a}lisis de los resultados}{9}{0}{3}
+\beamer@sectionintoc {4}{Conclusiones}{10}{0}{4}
+\beamer@sectionintoc {5}{Bibliograf\IeC {\'\i }a}{11}{0}{5}
